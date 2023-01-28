@@ -1,0 +1,91 @@
+{
+  "project_info": {
+    "project_number": "977468302094",
+    "firebase_url": "https://appointment-app-muis-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "appointment-app-muis",
+    "storage_bucket": "appointment-app-muis.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:977468302094:android:1ee09be534c918691cad5f",
+        "android_client_info": {
+          "package_name": "net.mustafabaser.appoinmentapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "977468302094-fc3unp6ue5hr2lp172ad3rslgfukk5rp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "net.mustafabaser.appoinmentapp",
+            "certificate_hash": "c83bcf104f9ddf5d8da9769a8709a7083ab4c916"
+          }
+        },
+        {
+          "client_id": "977468302094-pvtjk3cogjts18l9kd8ouea4u210sgti.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGkFL69WEAcOKFbyEZYyD4pl-z7btA13s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "977468302094-pvtjk3cogjts18l9kd8ouea4u210sgti.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "977468302094-dfuk7nshi2qaobcqql4pnltcf8csj030.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "ismailnermis.com.Appointment-App"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:977468302094:android:2903f43f505c9a571cad5f",
+        "android_client_info": {
+          "package_name": "net.mustafabaser.appointmentapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "977468302094-pvtjk3cogjts18l9kd8ouea4u210sgti.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGkFL69WEAcOKFbyEZYyD4pl-z7btA13s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "977468302094-pvtjk3cogjts18l9kd8ouea4u210sgti.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "977468302094-dfuk7nshi2qaobcqql4pnltcf8csj030.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "ismailnermis.com.Appointment-App"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
