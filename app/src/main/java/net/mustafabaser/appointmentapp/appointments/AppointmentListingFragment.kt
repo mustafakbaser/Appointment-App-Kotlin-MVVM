@@ -12,6 +12,7 @@ import dagger.hilt.android.AndroidEntryPoint
 import net.mustafabaser.appointmentapp.R
 import net.mustafabaser.appointmentapp.databinding.FragmentAppointmentDetailBinding
 import net.mustafabaser.appointmentapp.databinding.FragmentAppointmentListingBinding
+import net.mustafabaser.appointmentapp.util.UiState
 
 @AndroidEntryPoint
 class AppointmentListingFragment : Fragment() {
@@ -31,9 +32,23 @@ class AppointmentListingFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         viewModel.getAppointments()
-        viewModel.appointment.observe(viewLifecycleOwner){
-            it.forEach{
+        viewModel.appointment.observe(viewLifecycleOwner){ state ->
+            /*it.forEach{
                 Log.e("Dummy Data", it.toString())
+            }*/
+
+            when(state){
+                is UiState.Loading -> {
+                    Log.e("Dummy Data", "Loading")
+                }
+                is UiState.Failure -> {
+                    Log.e("Dummy Data", state.error.toString())
+                }
+                is UiState.Success -> {
+                    state.data.forEach{
+                        Log.e("Dummy Data", state.toString())
+                    }
+                }
             }
         }
     }
