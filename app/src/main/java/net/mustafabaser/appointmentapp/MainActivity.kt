@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
 
         val db = Firebase.firestore
 
-        // Create a new user with a first and last name
+        /*// Create a new user with a first and last name
         val user = hashMapOf(
             "firstName" to "Frodo",
             "lastName" to "Baggins",
@@ -30,6 +30,6 @@ class MainActivity : AppCompatActivity() {
             }
             .addOnFailureListener { e ->
                 Log.w("Database", "Error adding document", e)
-            }
+            }*/
     }
 }

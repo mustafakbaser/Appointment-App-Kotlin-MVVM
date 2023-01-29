@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/app_navigation">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_navigation"
+    app:startDestination="@id/appointmentListingFragment">
 
+    <fragment
+        android:id="@+id/appointmentListingFragment"
+        android:name="net.mustafabaser.appointmentapp.appointments.AppointmentListingFragment"
+        android:label="fragment_appointment_listing"
+        tools:layout="@layout/fragment_appointment_listing" >
+        <action
+            android:id="@+id/action_appointmentListingFragment_to_appointmentDetailFragment"
+            app:destination="@id/appointmentDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/appointmentDetailFragment"
+        android:name="net.mustafabaser.appointmentapp.appointments.AppointmentDetailFragment"
+        android:label="fragment_appointment_detail"
+        tools:layout="@layout/fragment_appointment_detail" />
 </navigation>
